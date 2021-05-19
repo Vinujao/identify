@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>My Family's identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+  </head>
+
+  <body>
+      <div class="container">
+
+        <center>
+            <span>
+            <h1 class="btn btn-danger" id="header">Family member identification</h1><img src="https://lh6.googleusercontent.com/proxy/21VvyoFhVKPxTZG1g3TTopIDjyXHKG3tA2ZvC98607YHA2J-Cdqv1GgTs_gf7gnpqf_ZkBkGlNIsupMDWegbwK8vG40mWIzVZV4u8E19jhmHZM6iE8hZVhmIHiRbtjI9TdkS-pOaATa7QtEHAYTtepN6B0Y2eTfeBJ6dYs1wNewOLq4ikOqPxCom=s0-d" id="img"> 
+        </span>
+            <br><br>
+      
+            <p style="font-size: 22px;">This bot here can notice following memmbers of the family: </p>
+              <b id="objects">
+                  Myself, the master<hr>
+                  Daddy sheep<hr>
+                  Mama Bear<hr>
+                </b>
+                <label>Identifier - </label>
+                       <div id="camera"></div>
+                <br><br>
+                       <div id="result"></div><label id="nice"></label>
+                <br><br>
+                      <button class="btn btn-info" onclick="get()">Show the family member</button>
+                <br><br>
+                      <button class="btn btn-success" onclick="know()">Know the family member</button>
+                <br><br>
+          
+                <p style="font-size: 22px;">Object :<span id="object_result"></span>  </p>
+                <p style="font-size: 22px;">Accuracy :<span id="accuracy_result"></span>  </p>
+              </center>
+      </div>
+  </body>

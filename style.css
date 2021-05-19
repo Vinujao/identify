@@ -1,0 +1,22 @@
+body{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(to left bottom, #0f7417, #0eaf44, #0eb36b, #07f007, #319111, #0eb337, #308300, #7fee00, #13df24, #6ba967, #afdaaf, #ffffff);;
+}
+
+#header{
+    width:90%;
+    font-size: 30px;
+}
+#objects{
+    font-size: 15px;
+    color:rgb(0, 238, 255);
+}
+#camera,#result{
+    width:300;
+    height:300;
+    border:2px solid red;
+}
+#img{
+    width:20%;
+    font-size:20px;
+}
